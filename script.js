@@ -48,7 +48,7 @@ function displayPhotos() {
 
     // Put <img/> inside <a> , then put both inside container element
     item.appendChild(img);
-    imageContainer.appendChild(img);
+    imageContainer.appendChild(item);
   });
 }
 
